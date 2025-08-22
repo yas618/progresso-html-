@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bentham&family=Slabo+27px&display=swap');
+
+* {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Bentham, Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #921996;
+}
+
+.flex-container {
+    width: 90%;
+    height: 200px;
+    background-color: rgb(192, 130, 182);
+    align-items: center;
+    border-left: 60px;
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: flex-start;
+ 
+}
+
+.flex-item {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(235, 211, 231);
+    border: 2px solid beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin: 10px;
+}
