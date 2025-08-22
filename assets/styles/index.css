@@ -40,7 +40,7 @@ h2 {
     width: 80px;
     height: 80px;
     background-color: rgb(235, 211, 231);
-    border: 2px solid beige;
+    border: 2px solid rgb(161, 82, 155);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -54,4 +54,12 @@ h2 {
 
 .justify-end{
     justify-content: end;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-around{
+    justify-content: space-around;
 }
