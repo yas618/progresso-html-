@@ -6,6 +6,42 @@
     box-sizing: border-box;
 }
 
+.navegacao {
+    text-decoration: none;
+    color: rgb(0, 150, 150);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    margin: 20px;
+    border: 2px solid rgb(0, 150, 150);
+    border-radius: 25px;
+    display: inline-block;
+    transition: all 0.5s ease;
+}
+
+ .navegacao:hover {
+    background-color:rgb(0, 150, 150);
+    color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    gap: 30px;
+    background-color: rgb(60, 61, 61);
+     width: 220px;
+     border-radius: 25px;
+     margin: 0 auto 30px;
+}
+
+.circulo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
 body {
     font-family: Bentham, Arial, Helvetica, sans-serif;
     padding: 20px;

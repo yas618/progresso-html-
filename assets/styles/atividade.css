@@ -24,11 +24,11 @@
     background-color: rgb(42, 40, 192);
 }
 
-.verde {
+.verdee {
     background-color: rgb(40, 230, 65);
 }
 
-.semaforo {
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,7 +37,15 @@
     gap: 30px;
 }
 
-.sinal {
+.fundo {
+   background-color: black;
+   padding: 20px;
+   height: 600px;
+   border-radius: 25px;
+   margin: 0 auto 30px;
+}
+
+.circulo {
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -46,15 +54,19 @@
 
 .vermelho {
     background-color: rgb(236, 2, 2);
+    align-items: center;
+    box-shadow: 0 0 20px #f00
    
 }
 
 .amarelo {
     background-color: rgb(231, 247, 8);
     align-items: center;
+    box-shadow: 0 0 20px #eeff01;
 }
 
 .verde {
     background-color: rgb(96, 235, 15);
     align-items: center;
+    box-shadow:  0 0 20px #67c76c;
 }

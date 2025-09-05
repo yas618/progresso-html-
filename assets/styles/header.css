@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(248, 197, 219);
+    color: azure;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+
+}
+
+.menu a {
+    color: azure;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s
+    ;
+}
+
+.menu a:hover {
+    color: rgb(94, 12, 48);
+}
